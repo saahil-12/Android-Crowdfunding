@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/password"
+            android:title="Change Password" />
+<!--        <item-->
+<!--            android:id="@+id/send_complaint"-->
+<!--            android:icon="@drawable/complaint"-->
+<!--            android:title="Send Complaint" />-->
+        <item
+            android:id="@+id/view_reply"
+            android:icon="@drawable/reply"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/view_fund_requirements"
+            android:icon="@drawable/funding"
+            android:title="Fund Requirements" />
+        <item
+            android:id="@+id/transactions"
+            android:icon="@drawable/funding"
+            android:title="Transactions" />
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

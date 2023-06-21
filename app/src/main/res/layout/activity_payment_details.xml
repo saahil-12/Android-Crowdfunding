@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment_details"
+    android:background="@drawable/pg">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/et_style"
+        android:drawableLeft="@drawable/ic_baseline_keyboard_24"
+        android:ems="10"
+        android:hint="Account Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName25"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/et_style"
+        android:drawableLeft="@drawable/ic_baseline_key_24"
+        android:ems="10"
+        android:hint=" Key Id"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName24"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName24" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/et_style"
+        android:drawableLeft="@drawable/ic_baseline_currency_bitcoin_24"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName25"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName25"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName25" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName26"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName26"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName26" />
+</androidx.constraintlayout.widget.ConstraintLayout>
